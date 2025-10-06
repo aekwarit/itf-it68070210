@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(14, 84, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-inline: 10px;
+    padding-block: 20px;
+}
+
+body {
+    font-family: "SUSE Mono" ,serif;
+    font-optical-sizing: auto;
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.ITF {
+    display: flex;
+    gap: 10px;
+}
+
+textarea {
+    background-color: #f9f9f9;
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+}
+.container2{
+    display: flex;
+}
+.account-information{
+    display: flex;
+    gap: 10px;
+}
+
+.account-information img{
+    width: 100px;
+    height: 100px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.Balance-information{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+
+}
+.Balance-information img{
+    width: 100px;
+    height: 100px;
+}
+.Balance-information2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.label1{
+    display: flex;
+    justify-content: space-between;
+    max-width: 350px;
+
+}
+.label2{
+    display: flex;
+    justify-content: space-between;
+    max-width: 350px;
+}
+.financial-tool{
+    width: 100%;
+}
+.Bank-operation img{
+    width: 100px;
+    height: 100px;    
+}
+.Bank-operation{
+    display: flex;
+    gap: 10px;
+}
+.deposit{
+    display: flex;
+    gap: 5px;
+
+}
+.buttonProceed{
+    display: flex;
+}
+.Bank-operation2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Tools img{
+    width: 100px;
+    height: 100px;    
+}
+.Tools {
+    display: flex;
+    gap: 10px
+    
+}
+.financial-tool{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.financial-tool2{
+    display: flex;
+    gap: 10px;
+}
+.financial-tool3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.financial-tool3 .label3, .label4{
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+button{
+    border-radius: 5px;
+    color: rgb(83, 158, 61);
+}
+
+select{
+    border-radius: 10px;
+    color: blueviolet;
+}
+
+input{
+    border-radius: 10px;  
+}
